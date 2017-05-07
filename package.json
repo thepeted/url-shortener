@@ -4,7 +4,8 @@
   "description": "shorterns a web url and redirect future requests to the original link",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "engines": {
     "node": "6.7.0"
