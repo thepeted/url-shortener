@@ -1,0 +1,28 @@
+{
+  "name": "fcc-url-shortener",
+  "version": "1.0.0",
+  "description": "shorterns a web url and redirect future requests to the original link",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepeted/url-shortener.git"
+  },
+  "author": "Peter Daily",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/thepeted/url-shortener/issues"
+  },
+  "homepage": "https://github.com/thepeted/url-shortener#readme",
+  "dependencies": {
+    "mongodb": "^2.2.26",
+    "shortid": "^2.2.8",
+    "showdown": "^1.6.4",
+    "valid-url": "^1.0.9"
+  }
+}
